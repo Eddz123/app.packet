@@ -16,21 +16,31 @@ body.pb-0
                 if (err)
                   .alert.alert-danger.bg-danger.text-white.text-center(role='alert').
                     Email Address Already Registered !
-                form.form-horizontal.mt-5(action='/users/register-user' method='post' class="custom-validation" )
+                form.form-horizontal.mt-5(action='/users/register-user' method='post' class="needs-validation" novalidate)
                   .form-group
-                    label(for='validationTooltip01') Email
-                    input.form-control#validationTooltip01(type='email', placeholder='Enter email' name="useremail" required)
-                  .valid-tooltip.
-                    Looks good!
+                    label(for='validationCustom01') Email
+                    input.form-control#validationCustom01(type='email', placeholder='Enter email' name="useremail" required)
+                    .valid-feedback
+                      | Looks good!
+                    .invalid-feedback
+                      | Please Indicate Your Correct Email Address
                   .form-group
                     label(for='uname') Username
                     input.form-control#uname(type='text', placeholder='Enter username' name="username" required)
+                    .valid-feedback
+                      | Looks good!
+                    .invalid-feedback
+                      | Please Indicate Your Desired Username
                   .form-group
                     label(for='upassword') Password
                     input.form-control#upassword(type='password', placeholder='Enter password' name="userpassword" required)
+                    .valid-feedback
+                      | Looks good!
+                    .invalid-feedback
+                      | Please Type Your Desired Password
                   .form-group.row
                     .col-12.text-right
-                      button.btn.btn-primary.w-md.waves-effect.waves-light(type='submit') Register
+                      button.btn.btn-danger.w-md.waves-effect.waves-light.btn-block(type='submit') Register
               .mt-5.text-center
                 p
                   | Already have an account ?
