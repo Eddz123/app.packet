@@ -1,0 +1,42 @@
+include includes/header_plugins
+
+body.pb-0
+.account-page-full-height.bg-transparent
+  .container-fluid
+    .row.align-items-center
+      .col-xl-3.bg-white
+        .account-page-full-height
+          .p-3
+            div
+              .text-center.p-4
+                a.logo(href='/')
+                  img(src='/assets/images/logo-dark.png', height='20', alt='logo')
+              .text-left.p-3
+                h4.font-18.text-center Registration
+                if (err)
+                  .alert.alert-danger.bg-danger.text-white.text-center(role='alert').
+                    Email Address Already Registered !
+                form.form-horizontal.mt-5(action='/users/register-user' method='post' class="custom-validation" )
+                  .form-group
+                    label(for='validationTooltip01') Email
+                    input.form-control#validationTooltip01(type='email', placeholder='Enter email' name="useremail" required)
+                  .valid-tooltip.
+                    Looks good!
+                  .form-group
+                    label(for='uname') Username
+                    input.form-control#uname(type='text', placeholder='Enter username' name="username" required)
+                  .form-group
+                    label(for='upassword') Password
+                    input.form-control#upassword(type='password', placeholder='Enter password' name="userpassword" required)
+                  .form-group.row
+                    .col-12.text-right
+                      button.btn.btn-primary.w-md.waves-effect.waves-light(type='submit') Register
+              .mt-5.text-center
+                p
+                  | Already have an account ?
+                p
+                  a.font-500.text-primary(href='/') Login
+    //  end row
+  //  end container-fluid
+
+include includes/footer_plugins

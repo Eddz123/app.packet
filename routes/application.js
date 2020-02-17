@@ -1,0 +1,1 @@
+var express = require('express');var router = express.Router();/* GET home page. */router.get('/applicant', function(req, res, next) {  res.render('application');});module.exports = router;
