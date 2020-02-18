@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fc3aad9-fe26-4108-8e22-5f85a225d2e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/views/dashboard.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/includes/top_nav.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/top_nav.pug" afterDir="false" />
-    </list>
+    <list default="true" id="6fc3aad9-fe26-4108-8e22-5f85a225d2e1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/dashboard.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="266">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -131,6 +128,7 @@
         <option value="Eddz123 &lt;41518972+eddz123@users.noreply.github.com&gt;" />
       </list>
     </option>
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -166,9 +164,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="51" />
+    <option name="y" value="8" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -184,16 +182,6 @@
             <path>
               <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
               <item name="app.packet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app.packet" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app.packet" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
@@ -289,17 +277,30 @@
       <option name="project" value="LOCAL" />
       <updated>1581985399401</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New Update">
+      <created>1581987643867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581987643867</updated>
+    </task>
+    <task id="LOCAL-00003" summary="New Update">
+      <created>1581987715889</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581987715889</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51041000" />
+    <option name="totallyTimeSpent" value="51479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.23793566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.23793566" />
       <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.14410187" />
       <window_info id="npm" order="2" sideWeight="0.5021216" side_tool="true" weight="0.23458445" />
       <window_info id="Favorites" order="3" sideWeight="0.5007072" side_tool="true" weight="0.14410187" />
@@ -314,7 +315,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.55445546" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.55445546" />
       <window_info anchor="bottom" id="REST Client" order="12" weight="0.55162656" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -590,8 +591,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/dashboard.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        <state relative-caret-position="266">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
