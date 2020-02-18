@@ -19,6 +19,9 @@ if (app.get('env') === 'production') {
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const dashboardRouter = require('./routes/dashboard');
+const applicationformRouter = require('./routes/applicationform');
+
+
 
 var app = express();
 
@@ -36,7 +39,7 @@ app.use(session(sess));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/dashboard', dashboardRouter);
-
+app.use('/applicationform', applicationformRouter);
 
 
 
