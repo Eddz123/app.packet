@@ -1,0 +1,1 @@
+var express = require('express');var router = express.Router();const main = require('./main');/* GET home page. */router.get('/', function(req, res, next) {  res.render('applicationpacket');});/* GET home page. */router.get('/forms', function(req, res, next) {  res.render('pages/page1');});module.exports = router;

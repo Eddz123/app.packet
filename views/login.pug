@@ -14,21 +14,24 @@ body.pb-0
               .text-left.p-3
                 h4.font-18.text-center Welcome Back !
                 p.text-muted.text-center Sign in to continue .
-                if (err)
+                if(err)
                   .alert.alert-danger.bg-danger.text-white.text-center(role='alert').
                     Email Address Already Registered !
-                form.form-horizontal.mt-5(action='/users/login-user' method='post' class='needs-validation' novalidate)
+                form.form-horizontal.mt-5(action='/users/login-user' autocomplete="off" method='post'
+                  class='needs-validation'
+                  novalidate)
                   .form-group
                     label(for='logemail') Email
-                    input.form-control#logemail(type='email', placeholder='Email Address' name="logemail"
-                      required)
+                    input.form-control#logemail(type='email', placeholder='Email Address' name="logemail" required
+                    autocomplete='off')
                     .valid-feedback
                       | Looks good!
                     .invalid-feedback
                       | Please Indicate Your Pre-Registered Email Address
                   .form-group
                     label(for='logpassword') Password
-                    input.form-control#logpassword(type='password', placeholder='Password' name="logpassword" required)
+                    input.form-control#logpassword(type='password', placeholder='Password' name="logpassword"
+                      required autocomplete='off')
                     .valid-feedback
                       | Looks good!
                     .invalid-feedback

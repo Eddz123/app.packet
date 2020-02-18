@@ -86,11 +86,10 @@ router.post('/login-user', function(req, res, next) {
                 req.session.email = rs[0].aa_email;
                 res.redirect('/dashboard');
                 res.end();
-                }
-            else{
+                }else{
                 res.redirect('/users/login?err=1');
                 res.end();
-        }
+            }
         }
     });
 });
@@ -100,32 +99,32 @@ router.post('/login-user', function(req, res, next) {
 
 
 /* GET FORGOT PASSWORD USER */
-router.post('/login-user', function(req, res, next) {
-  var logemail = req.body.logemail;
-  var logpassword = req.body.logpassword;
-
-  var luq = 'SELECT * FROM access_account WHERE aa_email = ? AND aa_password = ?';
-  var luqval = [logemail,logpassword];
-
-
-  con.query(luq,luqval,(err,rs)=>{
-        if(err){
-            throw err
-        }
-        else {
-            if(rs.length != 0){
-                req.session.id = rs[0].aa_id;
-                req.session.email = rs[0].aa_email;
-                res.redirect('/dashboard');
-                res.end();
-                }
-            else{
-                res.redirect('/users/login?err=1');
-                res.end();
-        }
-        }
-    });
-});
+// router.post('/login-user', function(req, res, next) {
+//   var logemail = req.body.logemail;
+//   var logpassword = req.body.logpassword;
+//
+//   var luq = 'SELECT * FROM access_account WHERE aa_email = ? AND aa_password = ?';
+//   var luqval = [logemail,logpassword];
+//
+//
+//   con.query(luq,luqval,(err,rs)=>{
+//         if(err){
+//             throw err
+//         }
+//         else {
+//             if(rs.length != 0){
+//                 req.session.id = rs[0].aa_id;
+//                 req.session.email = rs[0].aa_email;
+//                 res.redirect('/dashboard');
+//                 res.end();
+//                 }
+//             else{
+//                 res.redirect('/users/login?err=1');
+//                 res.end();
+//         }
+//         }
+//     });
+// });
 
 
 
