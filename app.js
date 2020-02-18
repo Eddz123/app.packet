@@ -3,12 +3,12 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var session = require('express-session')
-var app = express()
+var session = require('express-session');
+var app = express();
 var sess = {
   secret: 'keyboard cat',
   cookie: {}
-}
+};
 
 if (app.get('env') === 'production') {
   app.set('trust proxy', 1) // trust first proxy
@@ -16,9 +16,9 @@ if (app.get('env') === 'production') {
 }
 
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
-var applicantRouter = require('./routes/application');
+const indexRouter = require('./routes/index');
+const usersRouter = require('./routes/users');
+const dashboardRouter = require('./routes/dashboard');
 
 var app = express();
 
@@ -35,7 +35,7 @@ app.use(session(sess));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/applicant', applicantRouter);
+app.use('/dashboard', dashboardRouter);
 
 
 

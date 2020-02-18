@@ -14,22 +14,28 @@ body.pb-0
               .text-left.p-3
                 h4.font-18.text-center Welcome Back !
                 p.text-muted.text-center Sign in to continue .
-                if(err)
-                  p.text-danger.text-center.mb-4 Invalid Credentials! Please Try Again.
-                form.form-horizontal.mt-5(action='index.html')
+                if (err)
+                  .alert.alert-danger.bg-danger.text-white.text-center(role='alert').
+                    Email Address Already Registered !
+                form.form-horizontal.mt-5(action='/users/login-user' method='post' class='needs-validation' novalidate)
                   .form-group
-                    label(for='username') Username
-                    input.form-control#username(type='text', placeholder='Enter username' name="username" required)
+                    label(for='logemail') Email
+                    input.form-control#logemail(type='email', placeholder='Email Address' name="logemail"
+                      required)
+                    .valid-feedback
+                      | Looks good!
+                    .invalid-feedback
+                      | Please Indicate Your Pre-Registered Email Address
                   .form-group
-                    label(for='userpassword') Password
-                    input.form-control#userpassword(type='password', placeholder='Enter password' name="userpassword" required)
+                    label(for='logpassword') Password
+                    input.form-control#logpassword(type='password', placeholder='Password' name="logpassword" required)
+                    .valid-feedback
+                      | Looks good!
+                    .invalid-feedback
+                      | Please Indicate Your Pre-Registered Password
                   .form-group.row
-                    .col-sm-6
-                      .custom-control.custom-checkbox
-                        br
-                        br
-                    .col-sm-6.text-right
-                      button.btn.btn-primary.w-md.waves-effect.waves-light(type='submit') Log In
+                    .col-12.text-right
+                      button.btn.btn-primary.w-md.waves-effect.waves-light.btn-block(type='submit') Login
                   .form-group.mt-2.mb-0.row.text-center
                     .col-12.mt-6
                       a(href='/users/forgot-password')

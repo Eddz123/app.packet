@@ -4,7 +4,7 @@ const con = require('./connection');
 
 
 /* GET users listing. */
-router.get('/login', function(req, res, next) {
+router.get('/login?', function(req, res, next) {
   res.render('login');
 });
 
@@ -19,7 +19,22 @@ router.get('/forgot-password', function(req, res, next) {
 });
 
 
-/* GET users listing. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* GET REGISTER-USER */
 router.post('/register-user?', function(req, res, next) {
   var useremail = req.body.useremail;
   var username = req.body.username;
@@ -49,6 +64,74 @@ router.post('/register-user?', function(req, res, next) {
        }
     });
 });
+
+
+
+/* GET LOGIN-USER */
+router.post('/login-user', function(req, res, next) {
+  var logemail = req.body.logemail;
+  var logpassword = req.body.logpassword;
+
+  var luq = 'SELECT * FROM access_account WHERE aa_email = ? AND aa_password = ?';
+  var luqval = [logemail,logpassword];
+
+
+  con.query(luq,luqval,(err,rs)=>{
+        if(err){
+            throw err
+        }
+        else {
+            if(rs.length != 0){
+                req.session.id = rs[0].aa_id;
+                req.session.email = rs[0].aa_email;
+                res.redirect('/dashboard');
+                res.end();
+                }
+            else{
+                res.redirect('/users/login?err=1');
+                res.end();
+        }
+        }
+    });
+});
+
+
+
+
+
+/* GET FORGOT PASSWORD USER */
+router.post('/login-user', function(req, res, next) {
+  var logemail = req.body.logemail;
+  var logpassword = req.body.logpassword;
+
+  var luq = 'SELECT * FROM access_account WHERE aa_email = ? AND aa_password = ?';
+  var luqval = [logemail,logpassword];
+
+
+  con.query(luq,luqval,(err,rs)=>{
+        if(err){
+            throw err
+        }
+        else {
+            if(rs.length != 0){
+                req.session.id = rs[0].aa_id;
+                req.session.email = rs[0].aa_email;
+                res.redirect('/dashboard');
+                res.end();
+                }
+            else{
+                res.redirect('/users/login?err=1');
+                res.end();
+        }
+        }
+    });
+});
+
+
+
+
+
+
 
 
 
