@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc3aad9-fe26-4108-8e22-5f85a225d2e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/pages/hha_pages/page1.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/specialization.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/applicationform.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/applicationform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/page1.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/includes/footer_plugins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/footer_plugins.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/includes/header_plugins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/header_plugins.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/hha_pages/page1.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/hha_pages/page1.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/applicationform.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="396">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <element signature="e#273#305#0" expanded="true" />
                 <element signature="e#376#408#0" expanded="true" />
@@ -70,20 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/pages/specialization.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page1.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="206">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -91,7 +80,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/includes/top_nav.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="599">
               <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
             </state>
           </provider>
@@ -141,13 +130,14 @@
         <option value="$PROJECT_DIR$/views/layout.pug" />
         <option value="$PROJECT_DIR$/views/includes/top_nav.pug" />
         <option value="$PROJECT_DIR$/views/dashboard.pug" />
-        <option value="$PROJECT_DIR$/views/includes/footer_plugins.pug" />
-        <option value="$PROJECT_DIR$/views/includes/header_plugins.pug" />
         <option value="$PROJECT_DIR$/views/applicationform.pug" />
         <option value="$PROJECT_DIR$/views/pages/page1.pug" />
         <option value="$PROJECT_DIR$/views/pages/page2.pug" />
         <option value="$PROJECT_DIR$/views/pages/hha_pages/page2.pug" />
         <option value="$PROJECT_DIR$/routes/applicationform.js" />
+        <option value="$PROJECT_DIR$/views/pages/hha_pages/page1.pug" />
+        <option value="$PROJECT_DIR$/views/includes/header_plugins.pug" />
+        <option value="$PROJECT_DIR$/views/includes/footer_plugins.pug" />
       </list>
     </option>
   </component>
@@ -291,7 +281,7 @@
       <workItem from="1581958271296" duration="2629000" />
       <workItem from="1581988370245" duration="125000" />
       <workItem from="1582041903712" duration="14614000" />
-      <workItem from="1582129225257" duration="4490000" />
+      <workItem from="1582129225257" duration="5804000" />
     </task>
     <task id="LOCAL-00001" summary="New Update">
       <created>1581985399401</created>
@@ -332,13 +322,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71018000" />
+    <option name="totallyTimeSpent" value="72332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.24798928" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.24798928" />
       <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.14410187" />
       <window_info id="npm" order="2" sideWeight="0.5021216" side_tool="true" weight="0.23458445" />
       <window_info id="Favorites" order="3" sideWeight="0.5007072" side_tool="true" weight="0.14410187" />
@@ -573,20 +563,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/includes/footer_plugins.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/includes/header_plugins.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -618,6 +594,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/specialization.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="671">
+          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -627,33 +610,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/includes/top_nav.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="599">
           <caret line="75" column="34" selection-start-line="75" selection-start-column="34" selection-end-line="75" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page1.pug">
+    <entry file="file://$PROJECT_DIR$/views/includes/header_plugins.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="171">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/specialization.pug">
+    <entry file="file://$PROJECT_DIR$/views/includes/footer_plugins.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="545">
+          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/applicationform.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="396">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
             <element signature="e#273#305#0" expanded="true" />
             <element signature="e#376#408#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page1.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
