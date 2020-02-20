@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc3aad9-fe26-4108-8e22-5f85a225d2e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/hha_pages/page2.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/hha_pages/start.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/applicationform.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/applicationform.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/includes/footer_plugins.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/includes/footer_plugins.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/hha_pages/page1.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/hha_pages/page1.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/hha_pages/page2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/hha_pages/page2.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,20 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page1.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="569">
-              <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            <state relative-caret-position="421">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page2.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="44" column="70" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
+            <state relative-caret-position="475">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -119,8 +114,8 @@
         <option value="$PROJECT_DIR$/routes/applicationform.js" />
         <option value="$PROJECT_DIR$/views/includes/footer_plugins.pug" />
         <option value="$PROJECT_DIR$/views/pages/hha_pages/start.pug" />
-        <option value="$PROJECT_DIR$/views/pages/hha_pages/page2.pug" />
         <option value="$PROJECT_DIR$/views/pages/hha_pages/page1.pug" />
+        <option value="$PROJECT_DIR$/views/pages/hha_pages/page2.pug" />
       </list>
     </option>
   </component>
@@ -150,25 +145,6 @@
               <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
               <item name="app.packet" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app.packet" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="includes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app.packet" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app.packet" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="hha_pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
@@ -260,7 +236,7 @@
       <workItem from="1581958271296" duration="2629000" />
       <workItem from="1581988370245" duration="125000" />
       <workItem from="1582041903712" duration="14614000" />
-      <workItem from="1582129225257" duration="26247000" />
+      <workItem from="1582129225257" duration="26444000" />
     </task>
     <task id="LOCAL-00001" summary="New Update">
       <created>1581985399401</created>
@@ -301,7 +277,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92775000" />
+    <option name="totallyTimeSpent" value="92972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -626,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page2.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="44" column="70" selection-start-line="44" selection-start-column="70" selection-end-line="44" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/start.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -642,8 +611,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page1.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        <state relative-caret-position="421">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page2.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
