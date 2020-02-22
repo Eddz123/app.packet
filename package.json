@@ -1,7 +1,9 @@
 {
   "name": "app.packet",
   "version": "0.0.0",
-  "publishConfig": { "registry": "https://github.com/Eddz123/app.packet/" },
+  "publishConfig": {
+    "registry": "https://github.com/Eddz123/app.packet/"
+  },
   "private": true,
   "mit": true,
   "scripts": {
@@ -19,6 +21,7 @@
     "morgan": "~1.9.1",
     "mysql": "^2.18.1",
     "nodemon": "^2.0.2",
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "signature_pad": "^3.0.0-beta.3"
   }
 }

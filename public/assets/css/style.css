@@ -2316,6 +2316,20 @@ label {
   margin-top: 5px;
 }
 
+
+.signature-pad {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:400px;
+  height:200px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
 /* ======
 21. Form advanced
    ====== */
