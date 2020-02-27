@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc3aad9-fe26-4108-8e22-5f85a225d2e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/pages/hha_pages/page10.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/pages/hha_pages/page9.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/hha_pages/page8.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/hha_pages/page8.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/hha_pages/start.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/hha_pages/start.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,11 +38,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page8.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
+            <state relative-caret-position="-818">
+              <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page9.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="147" column="110" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="147" selection-end-column="110" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/start.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page10.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="28" selection-start-line="26" selection-start-column="42" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/applicationform.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#291#332#0" expanded="true" />
+                <element signature="e#415#457#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,17 +148,19 @@
         <option value="$PROJECT_DIR$/views/includes/header_plugins.pug" />
         <option value="$PROJECT_DIR$/views/pages/hha_pages/page4.pug" />
         <option value="$PROJECT_DIR$/views/pages/hha_pages/page5.pug" />
-        <option value="$PROJECT_DIR$/views/pages/hha_pages/start.pug" />
         <option value="$PROJECT_DIR$/views/pages/hha_pages/page7.pug" />
         <option value="$PROJECT_DIR$/views/pages/hha_pages/page6.pug" />
         <option value="D:/bms/systems/bms/connection/con_tanauan.php" />
         <option value="$PROJECT_DIR$/views/pages/hha_pages/page8.pug" />
+        <option value="$PROJECT_DIR$/views/pages/hha_pages/page9.pug" />
+        <option value="$PROJECT_DIR$/views/pages/hha_pages/start.pug" />
+        <option value="$PROJECT_DIR$/views/pages/hha_pages/page10.pug" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="940" />
-    <option name="width" value="984" />
+    <option name="width" value="985" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -133,11 +177,6 @@
             <path>
               <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
               <item name="app.packet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="app.packet" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
@@ -190,18 +229,18 @@
     </force-push-targets>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\app.packet\routes" />
-      <recent name="C:\xampp\htdocs\app.packet\views\pages\hha_pages" />
-      <recent name="C:\xampp\htdocs\app.packet" />
-      <recent name="C:\xampp\htdocs\app.packet\views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\app.packet\views\pages\hha_pages" />
       <recent name="C:\xampp\htdocs\app.packet\routes" />
       <recent name="C:\xampp\htdocs\app.packet\public\assets\js" />
       <recent name="C:\xampp\htdocs\app.packet\views\includes" />
       <recent name="C:\xampp\htdocs\app.packet\views\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\app.packet\routes" />
+      <recent name="C:\xampp\htdocs\app.packet\views\pages\hha_pages" />
+      <recent name="C:\xampp\htdocs\app.packet" />
+      <recent name="C:\xampp\htdocs\app.packet\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -254,7 +293,8 @@
       <workItem from="1582301278999" duration="27187000" />
       <workItem from="1582560633543" duration="28753000" />
       <workItem from="1582646968316" duration="6858000" />
-      <workItem from="1582671900875" duration="6504000" />
+      <workItem from="1582671900875" duration="7196000" />
+      <workItem from="1582733544566" duration="15907000" />
     </task>
     <task id="LOCAL-00001" summary="New Update">
       <created>1581985399401</created>
@@ -298,17 +338,24 @@
       <option name="project" value="LOCAL" />
       <updated>1582593927737</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="New Update 02/26/2020">
+      <created>1582678942141</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582678942141</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190571000" />
+    <option name="totallyTimeSpent" value="207170000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.22989276" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.25134048" />
       <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.14410187" />
       <window_info id="npm" order="2" sideWeight="0.5021216" side_tool="true" weight="0.23458445" />
       <window_info id="Favorites" order="3" sideWeight="0.5007072" side_tool="true" weight="0.14410187" />
@@ -341,27 +388,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New Update" />
     <MESSAGE value="New Update 02/25/2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Update 02/25/2020" />
+    <MESSAGE value="New Update 02/26/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Update 02/26/2020" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/projects/hrmanagement/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="44" column="22" lean-forward="true" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-          <folding>
-            <element signature="e#145#245#0" expanded="true" />
-            <element signature="e#287#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/login.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -515,13 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/specialization.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-749">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -581,17 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="69" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="9" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/applicationform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#291#332#0" expanded="true" />
-            <element signature="e#415#457#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/start.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page7.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -709,10 +714,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/applicationform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#291#332#0" expanded="true" />
+            <element signature="e#415#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/specialization.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page8.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
+        <state relative-caret-position="-818">
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/start.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page9.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="147" column="110" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="147" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page10.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="28" selection-start-line="26" selection-start-column="42" selection-end-line="28" />
         </state>
       </provider>
     </entry>
