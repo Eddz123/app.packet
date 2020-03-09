@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6fc3aad9-fe26-4108-8e22-5f85a225d2e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/pages/hha_pages/page16.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/hha_pages/page17.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/pages/hha_pages/page18.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/pages/hha_pages/page19.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/pages/hha_pages/page20.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/hha_pages/page15.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/hha_pages/page15.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/hha_pages/page17.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/hha_pages/page17.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/hha_pages/start.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/hha_pages/start.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -39,38 +42,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/start.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-994">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="131">
+              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page16.pug">
+        <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page19.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="93" column="89" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="93" selection-end-column="89" />
+            <state relative-caret-position="308">
+              <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page2.pug">
+        <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page18.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="17" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page17.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="116" column="92" lean-forward="true" selection-start-line="116" selection-start-column="92" selection-end-line="116" selection-end-column="92" />
+            <state relative-caret-position="333">
+              <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -100,7 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="D:/projects/hrmanagement/routes/index.js" />
         <option value="$PROJECT_DIR$/views/includes/footer_layout.pug" />
         <option value="$PROJECT_DIR$/views/index.pug" />
         <option value="$PROJECT_DIR$/routes/index.js" />
@@ -148,15 +141,17 @@
         <option value="$PROJECT_DIR$/views/pages/hha_pages/page14.pug" />
         <option value="$PROJECT_DIR$/views/pages/hha_pages/page15.pug" />
         <option value="$PROJECT_DIR$/views/pages/hha_pages/page16.pug" />
-        <option value="$PROJECT_DIR$/views/pages/hha_pages/start.pug" />
         <option value="$PROJECT_DIR$/views/pages/hha_pages/page17.pug" />
+        <option value="$PROJECT_DIR$/views/pages/hha_pages/page18.pug" />
+        <option value="$PROJECT_DIR$/views/pages/hha_pages/start.pug" />
+        <option value="$PROJECT_DIR$/views/pages/hha_pages/page19.pug" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="940" />
-    <option name="width" value="985" />
-    <option name="height" value="1040" />
+    <option name="x" value="686" />
+    <option name="width" value="599" />
+    <option name="height" value="786" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -191,10 +186,6 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="hha_pages" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="app.packet" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -224,18 +215,18 @@
     </force-push-targets>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\app.packet\routes" />
-      <recent name="C:\xampp\htdocs\app.packet\views\pages\hha_pages" />
-      <recent name="C:\xampp\htdocs\app.packet" />
-      <recent name="C:\xampp\htdocs\app.packet\views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\app.packet\views\pages\hha_pages" />
       <recent name="C:\xampp\htdocs\app.packet\routes" />
       <recent name="C:\xampp\htdocs\app.packet\public\assets\js" />
       <recent name="C:\xampp\htdocs\app.packet\views\includes" />
       <recent name="C:\xampp\htdocs\app.packet\views\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\app.packet\routes" />
+      <recent name="C:\xampp\htdocs\app.packet\views\pages\hha_pages" />
+      <recent name="C:\xampp\htdocs\app.packet" />
+      <recent name="C:\xampp\htdocs\app.packet\views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -297,6 +288,8 @@
       <workItem from="1583223034582" duration="25676000" />
       <workItem from="1583309358836" duration="9271000" />
       <workItem from="1583424859850" duration="12030000" />
+      <workItem from="1583702825922" duration="5284000" />
+      <workItem from="1583708568064" duration="5396000" />
     </task>
     <task id="LOCAL-00001" summary="New Update">
       <created>1581985399401</created>
@@ -351,19 +344,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="286222000" />
+    <option name="totallyTimeSpent" value="296902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="752" y="0" width="788" height="832" extended-state="0" />
+    <frame x="686" y="0" width="599" height="786" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787837" weight="0.65147454" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49787837" weight="0.20756757" />
       <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.14410187" />
       <window_info id="npm" order="2" sideWeight="0.5021216" side_tool="true" weight="0.23458445" />
       <window_info id="Favorites" order="3" sideWeight="0.5007072" side_tool="true" weight="0.14410187" />
+      <window_info id="DB Browser" order="4" weight="0.32980332" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5360679" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.9540582" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,38 +366,18 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49955633" weight="0.55445546" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49955633" weight="0.5531915" />
       <window_info anchor="bottom" id="REST Client" order="12" weight="0.55162656" />
+      <window_info anchor="bottom" id="DB Execution Console" order="13" />
+      <window_info anchor="bottom" id="RNConsole" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info anchor="right" id="Remote Host" order="4" weight="0.33042896" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" />
+      <window_info anchor="right" id="Github Tools" order="6" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49787837" visible="true" weight="0.19705094" />
-      <window_info id="Structure" order="1" sideWeight="0.5007072" side_tool="true" weight="0.14410187" />
-      <window_info id="npm" order="2" sideWeight="0.5021216" side_tool="true" weight="0.23458445" />
-      <window_info id="Favorites" order="3" sideWeight="0.5007072" side_tool="true" weight="0.14410187" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5360679" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32956153" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49955633" weight="0.55445546" />
-      <window_info anchor="bottom" id="REST Client" order="12" weight="0.55162656" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
-      <window_info anchor="right" id="Remote Host" order="4" weight="0.33042896" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -418,29 +392,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="New Update 02/26/2020" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/projects/hrmanagement/views/forms/form_02.pug">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/projects/hrmanagement/views/forms/form_01.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="5" column="27" selection-start-line="5" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/projects/hrmanagement/views/forms/form_04.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-389" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/includes/header_plugins1.pug" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/applications.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="911">
-          <caret line="171" column="16" selection-start-line="171" selection-start-column="16" selection-end-line="171" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -504,13 +455,7 @@
     <entry file="file://$PROJECT_DIR$/routes/sign.js" />
     <entry file="file://$PROJECT_DIR$/routes/sign.api.js" />
     <entry file="file://$PROJECT_DIR$/public/plugins/signature-pad/jquery.signaturepad.js" />
-    <entry file="file://$USER_HOME$/Downloads/Compressed/signature-pad-master/signature-pad-master/examples/full-window.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Compressed/signature-pad-master/signature-pad-master/examples/full-window.html" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
@@ -560,71 +505,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/bms/systems/bms/connection/configportal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/bms/systems/bms/assets/include/loginhistory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/bms/systems/bms/connection/con_tanauan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/bms/systems/bms/connection/config2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/bms/systems/bms/connection/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/bms/systems/bms/module/settings/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/bms/systems/bms/module/archive/connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#5#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/bms/systems/bms/module/barangay/lib/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://D:/bms/systems/bms/connection/configportal.php" />
+    <entry file="file://D:/bms/systems/bms/assets/include/loginhistory.php" />
+    <entry file="file://D:/bms/systems/bms/connection/con_tanauan.php" />
+    <entry file="file://D:/bms/systems/bms/connection/config2.php" />
+    <entry file="file://D:/bms/systems/bms/connection/config.php" />
+    <entry file="file://D:/bms/systems/bms/module/settings/connect.php" />
+    <entry file="file://D:/bms/systems/bms/module/archive/connect.php" />
+    <entry file="file://D:/bms/systems/bms/module/barangay/lib/css/custom.css" />
     <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page7.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -681,17 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/applicationform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#291#332#0" expanded="true" />
-            <element signature="e#415#457#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/forgotpassword.pug">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -744,31 +621,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page2.pug">
+    <entry file="file://$PROJECT_DIR$/routes/applicationform.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="17" selection-end-column="83" />
+        <state relative-caret-position="264">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/start.pug">
+    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page2.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-994">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="-105">
+          <caret line="242" column="30" lean-forward="true" selection-start-line="242" selection-start-column="30" selection-end-line="242" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page16.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="93" column="89" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="93" selection-end-column="89" />
+        <state relative-caret-position="356">
+          <caret line="91" column="8" lean-forward="true" selection-start-line="91" selection-start-column="8" selection-end-line="91" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page20.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/sectional.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="64" column="16" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="381" column="7" selection-start-line="381" selection-start-column="3" selection-end-line="381" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page17.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="116" column="92" lean-forward="true" selection-start-line="116" selection-start-column="92" selection-end-line="116" selection-end-column="92" />
+        <state relative-caret-position="782">
+          <caret line="116" column="42" selection-start-line="116" selection-start-column="42" selection-end-line="116" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page18.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/page19.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="99" column="16" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/hha_pages/start.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>
