@@ -4,11 +4,16 @@
 
 
 
+(function () {
+    jQuery(function ($) {
+        // automatically focus on input when page loads, just for demo purposes
+        // $('#sigbox input[name=signature]').focus()
 
+        // change the scale argument to resize, 1 is default
+        return $('#sigbox').css('transform', 'scale(1)');
+    });
 
-
-
-
+}).call(this);
 
 
 
