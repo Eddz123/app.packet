@@ -152,9 +152,14 @@
         h6.col-12.mb-2.text-dark.text-center I Awknowledgement that i have oriented to the above. I have received a copy of my position description. I have completed orientation.
 
   .form-row.col-lg-12
-      .form-group.col-md-6
-          label.text-dark Employee / Contractor Signature :
-          input.form-control.waves-float(type='text' value='' name='pg8nameofemployee')
+      .form-group.col-md-6.text-center
+          .card
+              .card-body.bg-white
+                  div.flex.text-center
+                      div#sigbox(style="width:450px;")
+                          input#signature(name='pg9signatureemployee' type='text' placeholder='Sign here' style="font-size:50px;")
+                  br
+                  h4.mt-0.header-title.text-center.text-dark Employee / Contractor Signature
       .form-group.col-md-6
           label.text-dark Date :
           .input-group
@@ -163,9 +168,14 @@
                   span.input-group-text
                       i.mdi.mdi-calendar
   .form-row.col-lg-12
-      .form-group.col-md-6
-           label.text-dark Agency Representative Signature :
-           input.form-control.waves-float(type='text' value='' name='pg8nameofemployee')
+      .form-group.col-md-6.text-center
+          .card
+              .card-body.bg-white
+                  div.flex.text-center
+                      div#sigbox
+                          input#signature(name='pg9signatureagency' type='text' placeholder='Sign here' style="font-size:50px;")
+                  br
+                  h4.mt-0.header-title.text-center.text-dark Agency Representative Signature
       .form-group.col-md-6
            label.text-dark Date :
            .input-group
