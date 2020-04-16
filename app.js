@@ -21,8 +21,11 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const dashboardRouter = require('./routes/dashboard');
 const applicationformRouter = require('./routes/applicationform');
-
-
+const rnapplicantsrouter = require('./routes/rn');
+const mswapplicantsrouter = require('./routes/msw');
+const scapplicantsrouter = require('./routes/sc');
+const lvnapplicantsrouter = require('./routes/lvn');
+const hhaapplicantsrouter = require('./routes/hha');
 
 var app = express();
 
@@ -41,11 +44,11 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/dashboard', dashboardRouter);
 app.use('/applicationform', applicationformRouter);
-
-
-
-
-
+app.use('/rn', rnapplicantsrouter);
+app.use('/msw', mswapplicantsrouter);
+app.use('/sc', scapplicantsrouter);
+app.use('/lvn', lvnapplicantsrouter);
+app.use('/hha', hhaapplicantsrouter);
 
 
 

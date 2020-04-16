@@ -3,10 +3,6 @@ const router = express.Router();
 const con = require('./connection');
 
 
-/* GET users listing. */
-router.get('/login?', function(req, res, next) {
-  res.render('login');
-});
 
 /* GET users listing. */
 router.get('/register?', function(req, res, next) {
@@ -24,7 +20,11 @@ router.get('/forgot-password', function(req, res, next) {
 
 
 
-
+router.get('/login',(req,res,next)=>{
+    var err = req.query.err;
+    res.render('login',{title : 'Login', err: err});
+    res.end();
+});
 
 
 
@@ -56,7 +56,7 @@ router.post('/register-user?', function(req, res, next) {
                 if(err2){
                     throw err2
                 }else{
-                    res.redirect('/users/register');
+                    res.redirect('/users/login');
                 }
 
             });
