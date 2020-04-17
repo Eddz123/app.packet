@@ -1,0 +1,43 @@
+extends layout
+
+
+
+block content
+
+
+
+  .row
+    .col-12
+      .card
+        .card-body
+          h4.mt-0.header-title Spiritual Counselor Applicants Table
+          p.text-muted.mb-4
+            |
+
+          table#datatable-buttons.table.table-striped.table-bordered.dt-responsive.nowrap(style='border-collapse: collapse; border-spacing: 0; width: 100%;')
+            thead
+              tr
+
+                th Name
+                th Address
+                th Phone Number
+                th Email Address
+                th Position Applied
+                th Options
+
+            tbody
+              each app in applicationpacket
+                tr(class= (app.app_isview != 'true')? 'table-success' : '')
+
+                  td= app.sc_name
+                  td= app.sc_address
+                  td= app.sc_phonenumber
+                  td= app.sc_emailaddress
+                  td= app.sc_positionapplied
+                  td.text-center
+                    a(href="/applicationform/sc/viewform?id=" + app.sc_id)
+                      i.far.fa-eye
+                      |  Open
+    // end col
+  // end row
+

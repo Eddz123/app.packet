@@ -1,1 +1,33 @@
-var express = require('express');var router = express.Router();const con = require('./connection');const main = require('./main');//------------------------------- RN START ----------------------------------//// FILL UP FORM FOR RN //router.get('/rn/startappform?',(req,res,next)=>{  if(!req.query.formid){    res.redirect('/applicationform/rn/startappform?formid='+ main.random_id());  }else{    res.render('pages/rn_pages/start', { title : 'Fillup Form', formid : req.query.formid});    res.end();  }});/* SAVE FILL UP FORM RN */router.post('/rn/save-startappform?', function(req, res, next) {  var formid = req.query.formid;  var pg2name  = req.body.pg2name;  var pg2address = req.body.pg2address;  var pg2phonenumber = req.body.pg2phonenumber;  var pg2emailaddress = req.body.pg2emailaddress;  var pg2position = req.body.pg2position;  var form = JSON.stringify(req.body);  var query = 'INSERT INTO rn_information (rn_no,rn_name,rn_address,rn_phonenumber,rn_emailaddress,rn_positionapplied,rn_otherinfo) VALUES ?';  var queryval = [[formid,pg2name,pg2address,pg2phonenumber,pg2emailaddress,pg2position,form]];  con.query(query, [queryval], (err2, res2) => {    if (err2) {      throw err2    } else {      res.redirect('/applicationform/thankyou');    }  });});//View applicant Form from HR Managerrouter.get('/viewform?',(req,res,next)=>{  if(req.session.email){    var id = req.query.id;    var q = `SELECT * FROM rn_information WHERE rn_id = ?`;    var qval = [id];    con.query(q,qval,(err,rs)=>{      if(err){        console.log("Err: "+ err);      }      var v = `UPDATE rn_information SET app_isview = ? WHERE rn_id = ?`;      var vVal = ['true', id];      con.query(v,vVal,(err1,rs1)=>{        if(err1){          console.log("Err: "+ err1);        }        var form_data=JSON.stringify(rs[0].rn_otherinfo);        var gf = `SELECT * FROM file_information WHERE file_no = ?`;        var gfval = [rs[0].rn_no];        con.query(gf,gfval,(err2, rs2)=>{          if (err){            throw err;          }          res.render('pages/rn_pages/view_start',{ title : 'View Applicant Form', app : form_data , filez : rs2});          res.end();        });      });    });  }else{    res.redirect('/users/login');    res.end();  }});router.get('/delete?',(req,res,next)=>{  var id =req.query.id;  var z= 'DELETE FROM rn_information WHERE rn_id = ?';  var zval = [id];  con.query(z,zval,(err,rs)=>{    if(err){      console.log(err);    }else{      res.redirect('/applicationform');      res.end();    }  });});//Get the List of Applicant form Databaserouter.get('/',(req,res,next)=>{  if(req.session.email){    var g = `SELECT * FROM rn_information `;    con.query(g,(err,rs)=>{      if(err){        console.log(err);      }      res.render('rntable',{ title : 'Applicant List', applicationpacket : rs});      res.end();    });  }else{    res.redirect('/users/login');    res.end();  }});//Upload Filerouter.post('/upload-file?',(req,res,next)=>{  var no = req.query.formid;  if(!req.files || Object.keys(req.files).length === 0){    return res.status(400).send("No files were uploaded");  }  let file = req.files.resume;  var path = 'public/files/' + file.name;  file.mv(path, (err)=>{    if(err){      console.log("error: "+ err);    }    //Save data to Database    var q = `INSERT INTO file_information(file_no, file_name,file_path) VALUES ?`;    var qVal = [      [no, file.name, path]    ];    con.query(q,[qVal], (err,rs)=>{      if(err){        console.log("error: "+ err);      }      res.redirect("/applicationform/rn/startappform?formid="+ no);      res.end();    });  });});//------------------------------- RN END ----------------------------------//// GET THANK YOU PAGE //router.get('/thankyou',(req,res,next)=>{  res.render('pages/thankyou');});// GET THANK YOU PAGE //router.get('/applicationfailed',(req,res,next)=>{  res.render('pages/applicationfailed');});module.exports = router;
+var express = require('express');
+var router = express.Router();
+const con = require('./connection');
+const main = require('./main');
+
+
+//------------------------------- LVN START ----------------------------------//
+
+
+//Get the List of Applicant In Database
+router.get('/',(req,res,next)=>{
+  if(req.session.email){
+    var g = `SELECT * FROM lvn_information `;
+    con.query(g,(err,rs)=>{
+      if(err){
+        console.log(err);
+      }
+
+      res.render('lvntable',{ title : 'Applicant List', applicationpacket : rs});
+      res.end();
+    });
+  }else{
+    res.redirect('/users/login');
+    res.end();
+  }
+});
+
+
+//------------------------------- LVN END ----------------------------------//
+
+
+
+module.exports = router;

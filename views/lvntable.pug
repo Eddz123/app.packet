@@ -1,0 +1,43 @@
+extends layout
+
+
+
+block content
+
+
+
+  .row
+    .col-12
+      .card
+        .card-body
+          h4.mt-0.header-title Licensed Vocational Nurse Applicants Table
+          p.text-muted.mb-4
+            |
+
+          table#datatable-buttons.table.table-striped.table-bordered.dt-responsive.nowrap(style='border-collapse: collapse; border-spacing: 0; width: 100%;')
+            thead
+              tr
+
+                th Name
+                th Address
+                th Phone Number
+                th Email Address
+                th Position Applied
+                th Options
+
+            tbody
+              each app in applicationpacket
+                tr(class= (app.app_isview != 'true')? 'table-success' : '')
+
+                  td= app.lvn_name
+                  td= app.lvn_address
+                  td= app.lvn_phonenumber
+                  td= app.lvn_emailaddress
+                  td= app.lvn_positionapplied
+                  td.text-center
+                    a(href="/applicationform/lvn/viewform?id=" + app.lvn_id)
+                      i.far.fa-eye
+                      |  Open
+    // end col
+  // end row
+
