@@ -1,3 +1,34 @@
+- var chk1 = (app && app.pg35choices === "yes")? true : false
+- var chk2 = (app && app.pg35choices === "no")? true : false
+- var chk3 = (app && app.pg35choices1 === "yes")? true : false
+- var chk4 = (app && app.pg35choices1 === "yes")? true : false
+- var chk5 = (app && app.pg35choices2 === "no")? true : false
+- var chk6 = (app && app.pg35choices2 === "yes")? true : false
+- var chk7 = (app && app.pg35choices3 === "yes")? true : false
+- var chk8 = (app && app.pg35choices3 === "no")? true : false
+- var chk9 = (app && app.pg35choices4 === "yes")? true : false
+- var chk10 = (app && app.pg35choices4 === "yes")? true : false
+- var chk11 = (app && app.pg35choices5 === "no")? true : false
+- var chk12 = (app && app.pg35choices5 === "yes")? true : false
+- var chk13 = (app && app.pg35choices6 === "yes")? true : false
+- var chk14 = (app && app.pg35choices6 === "no")? true : false
+- var chk15 = (app && app.pg35choices7 === "yes")? true : false
+- var chk16 = (app && app.pg35choices7 === "yes")? true : false
+- var chk17 = (app && app.pg35choices8 === "no")? true : false
+- var chk18 = (app && app.pg35choices8 === "yes")? true : false
+- var chk19 = (app && app.pg35choices9 === "yes")? true : false
+- var chk20 = (app && app.pg35choices9 === "yes")? true : false
+- var chk21 = (app && app.pg35choices10 === "no")? true : false
+- var chk22 = (app && app.pg35choices10 === "yes")? true : false
+- var chk23 = (app && app.pg35choices11 === "yes")? true : false
+- var chk24 = (app && app.pg35choices11 === "yes")? true : false
+- var chk25 = (app && app.pg35choices12 === "no")? true : false
+
+
+
+
+
+
 .row
     .col-md-12
         .form-group
@@ -20,11 +51,11 @@
                 h4.mt-0.header-title.text-left.text-dark History of positive TB test or TB disease
             .form-group.col-md-3
                 .custom-control.custom-radio
-                    input#yes.custom-control-input(type='radio' name='choices' value='yes')
+                    input#yes.custom-control-input(type='radio' name='pg35choices' value='yes' checked=chk1)
                     label.custom-control-label(for='yes') Yes
             .form-group.col-md-3
                 .custom-control.custom-radio
-                    input#no.custom-control-input(type='radio' name='choices' value='no')
+                    input#no.custom-control-input(type='radio' name='pg35choices' value='no' checked=chk2)
                     label.custom-control-label(for='no') No
     .form-group.col-md-12
         .table-responsive
@@ -63,7 +94,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes1.custom-control-input(type='radio' name='choices1' value='yes')
+                                        input#yes1.custom-control-input(type='radio' name='pg35choices1' value='yes' checked=chk3)
                                         label.custom-control-label(for='yes1') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -71,7 +102,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no1.custom-control-input(type='radio' name='choices1' value='no')
+                                        input#no1.custom-control-input(type='radio' name='pg35choices1' value='no' checked=chk4)
                                         label.custom-control-label(for='no1') No
 
                     tr
@@ -88,7 +119,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes2.custom-control-input(type='radio' name='choices2' value='yes')
+                                        input#yes2.custom-control-input(type='radio' name='pg35choices2' value='yes' checked=chk5)
                                         label.custom-control-label(for='yes2') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -96,7 +127,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no2.custom-control-input(type='radio' name='choices2' value='no')
+                                        input#no2.custom-control-input(type='radio' name='pg35choices2' value='no' checked=chk6)
                                         label.custom-control-label(for='no2') No
                     tr
                         th.text-left(colspan='4')
@@ -112,7 +143,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes3.custom-control-input(type='radio' name='choices3' value='yes')
+                                        input#yes3.custom-control-input(type='radio' name='pg35choices3' value='yes' checked=chk7)
                                         label.custom-control-label(for='yes3') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -120,7 +151,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no3.custom-control-input(type='radio' name='choices3' value='no')
+                                        input#no3.custom-control-input(type='radio' name='pg35choices3' value='no' checked=chk8)
                                         label.custom-control-label(for='no3') No
                     tr
                         th.text-left(colspan='4')
@@ -136,7 +167,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes4.custom-control-input(type='radio' name='choices4' value='yes')
+                                        input#yes4.custom-control-input(type='radio' name='pg35choices4' value='yes' checked=chk9)
                                         label.custom-control-label(for='yes4') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -144,7 +175,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no4.custom-control-input(type='radio' name='choices4' value='no')
+                                        input#no4.custom-control-input(type='radio' name='pg35choices4' value='no' checked=chk10)
                                         label.custom-control-label(for='no4') No
                     tr
                         th.text-left(colspan='4')
@@ -160,7 +191,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes5.custom-control-input(type='radio' name='choices5' value='yes')
+                                        input#yes5.custom-control-input(type='radio' name='pg35choices5' value='yes' checked=chk11)
                                         label.custom-control-label(for='yes5') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -168,7 +199,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no5.custom-control-input(type='radio' name='choices5' value='no')
+                                        input#no5.custom-control-input(type='radio' name='pg35choices5' value='no' checked=chk12)
                                         label.custom-control-label(for='no5') No
 
                     tr
@@ -185,7 +216,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes6.custom-control-input(type='radio' name='choices6' value='yes')
+                                        input#yes6.custom-control-input(type='radio' name='pg35choices6' value='yes' checked=chk13)
                                         label.custom-control-label(for='yes6') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -193,7 +224,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no6.custom-control-input(type='radio' name='choices6' value='no')
+                                        input#no6.custom-control-input(type='radio' name='pg35choices6' value='no' checked=chk14)
                                         label.custom-control-label(for='no6') No
                     tr
                         th.text-left(colspan='4')
@@ -209,7 +240,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes7.custom-control-input(type='radio' name='choices7' value='yes')
+                                        input#yes7.custom-control-input(type='radio' name='pg35choices7' value='yes' checked=chk15)
                                         label.custom-control-label(for='yes7') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -217,7 +248,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no7.custom-control-input(type='radio' name='choices7' value='no')
+                                        input#no7.custom-control-input(type='radio' name='pg35choices7' value='no' checked=chk16)
                                         label.custom-control-label(for='no7') No
                     tr
                         th.text-left(colspan='4')
@@ -233,7 +264,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes8.custom-control-input(type='radio' name='choices8' value='yes')
+                                        input#yes8.custom-control-input(type='radio' name='pg35choices8' value='yes' checked=chk17)
                                         label.custom-control-label(for='yes8') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -241,7 +272,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no8.custom-control-input(type='radio' name='choices8' value='no')
+                                        input#no8.custom-control-input(type='radio' name='pg35choices8' value='no' checked=chk17)
                                         label.custom-control-label(for='no8') No
                     tr
                         th.text-left(colspan='4')
@@ -257,7 +288,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes9.custom-control-input(type='radio' name='choices9' value='yes')
+                                        input#yes9.custom-control-input(type='radio' name='pg35choices9' value='yes' checked=chk18)
                                         label.custom-control-label(for='yes9') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -265,7 +296,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no9.custom-control-input(type='radio' name='choices9' value='no')
+                                        input#no9.custom-control-input(type='radio' name='pg35choices9' value='no' checked=chk19)
                                         label.custom-control-label(for='no9') No
                     tr
                         th.text-left(colspan='4')
@@ -281,7 +312,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes10.custom-control-input(type='radio' name='choices10' value='no')
+                                        input#yes10.custom-control-input(type='radio' name='pg35choices10' value='yes' checked=chk20)
                                         label.custom-control-label(for='yes10') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -289,7 +320,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no10.custom-control-input(type='radio' name='choices10' value='no')
+                                        input#no10.custom-control-input(type='radio' name='pg35choices10' value='no' checked=chk21)
                                         label.custom-control-label(for='no10') No
                     tr
                         th.text-left(colspan='4')
@@ -305,7 +336,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes11.custom-control-input(type='radio' name='choices11' value='no')
+                                        input#yes11.custom-control-input(type='radio' name='pg35choices11' value='yes' checked=chk22)
                                         label.custom-control-label(for='yes11') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -313,7 +344,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no11.custom-control-input(type='radio' name='choices11' value='no')
+                                        input#no11.custom-control-input(type='radio' name='pg35choices11' value='no' checked=chk23)
                                         label.custom-control-label(for='no11') No
                     tr
                         th.text-left(colspan='4')
@@ -329,7 +360,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#yes12.custom-control-input(type='radio' name='choices12' value='no')
+                                        input#yes12.custom-control-input(type='radio' name='pg35choices12' value='yes' checked=chk24)
                                         label.custom-control-label(for='yes12') Yes
                         th.text-left(colspan='4')
                             .form-group.col-md-12.row
@@ -337,7 +368,7 @@
                                     br
                                     br
                                     .custom-control.custom-radio.mt-0.header-title.text-center
-                                        input#no12.custom-control-input(type='radio' name='choices12' value='no')
+                                        input#no12.custom-control-input(type='radio' name='pg35choices12' value='no' checked=chk25)
                                         label.custom-control-label(for='no12') No
                     tr
                         th.text-left(colspan='12')
@@ -347,7 +378,8 @@
                                     br
                                     h4.mt-0.header-title.text-left.text-dark Please provide details to any question answered "YES".
                                     br
-                                    textarea#textarea.form-control(maxlength='225' rows='4' name='pg35answeredyes')
+                                    input.form-control.waves-float(type='text' value= (app)? app.pg35answeredyes : '' name='pg35answeredyes' )
+
                     tr
                         th.text-left(colspan='12')
                             .form-group.col-md-12.row
@@ -360,12 +392,12 @@
                                         .card-body.bg-white
                                             div.flex.text-center
                                                 div#sigbox(style="width:450px;")
-                                                    input#signature(name='pg35signature' type='text' placeholder='Sign here' style="font-size:50px;")
+                                                    input#signature(name='pg35signature' value= (app)? app.pg35signature : '' type='text' placeholder='Sign here' style="font-size:50px;")
                                             br
                                             h4.mt-0.header-title.text-center.text-dark Printed Name & Signature
                                 .form-group.col-md-6
 
-                                    input.form-control.waves-float(type='date' name='pg35signaturedate')
+                                    input.form-control.waves-float(type='date' value= (app)? app.pg35signaturedate : '' name='pg35signaturedate')
                                     br
                                     h4.mt-0.header-title.text-center.text-dark Date
     .form-group.col-md-12
@@ -382,25 +414,25 @@
                                     h4.mt-0.header-title.text-center.text-dark Upon review of there sponses to the questionnaire and discussion with the person for whom the tuberculos is evaluation is required,I recommend as follows :
                             .form-group.col-md-12.row
                                 .form-group.col-md-2
-                                    input.form-control.waves-float(type='text' value='' name='pg35partbanswer1')
+                                    input.form-control.waves-float(type='text' value= (app)? app.pg35partbanswer1 : '' name='pg35partbanswer1')
                                 .form-group.col-md-10
                                     h4.mt-0.header-title.text-dark There is no indication this person has active tuberculosis at this time.
                             .form-group.col-md-12.row
                                 .form-group.col-md-2
-                                    input.form-control.waves-float(type='text' value='' name='pg35partbanswer2')
+                                    input.form-control.waves-float(type='text' value= (app)? app.pg35partbanswer2 : '' name='pg35partbanswer2')
                                 .form-group.col-md-10
                                     h4.mt-0.header-title.text-dark Further evaluation, including a TB skin Test, Interfer on Gamma Release Assay or medical evaluation is indicated,and should be completed prior to work placement or admission to facility.
                             .form-group.col-md-12.row
                                 .form-group.col-md-2
-                                    input.form-control.waves-float(type='text' value='' name='pg35partbanswer3')
+                                    input.form-control.waves-float(type='text' value= (app)? app.pg35partbanswer3 : '' name='pg35partbanswer3')
                                 .form-group.col-md-2
                                     h4.mt-0.header-title.text-dark Previously Tested in PPD
                                 .form-group.col-md-2
-                                    input.form-control.waves-float(type='text' value='' name='pg35partbanswer4')
+                                    input.form-control.waves-float(type='text' value= (app)? app.pg35partbanswer4 : '' name='pg35partbanswer4')
                                 .form-group.col-md-2
                                     h4.mt-0.header-title.text-dark To Submit Chest X-ray
                                 .form-group.col-md-2
-                                    input.form-control.waves-float(type='text' value='' name='pg35partbanswer5')
+                                    input.form-control.waves-float(type='text' value= (app)? app.pg35partbanswer5 : '' name='pg35partbanswer5')
                                 .form-group.col-md-2
                                     h4.mt-0.header-title.text-dark Chest X-ray on file.
                             br
@@ -411,11 +443,11 @@
 
                             .form-group.col-md-12.row
                                 .form-group.col-md-6
-                                    input.form-control.waves-float(type='text' value='' name='pg35healthcarename')
+                                    input.form-control.waves-float(type='text' value= (app)? app.pg35healthcarename : '' name='pg35healthcarename')
                                     br
                                     h4.mt-0.header-title.text-center.text-dark Health Care Professional Name
                                 .form-group.col-md-6
-                                    input.form-control.waves-float(type='date' value='' name='pg35healthcaredatesigned')
+                                    input.form-control.waves-float(type='date' value= (app)? app.pg35healthcaredatesigned : '' name='pg35healthcaredatesigned')
                                     br
                                     h4.mt-0.header-title.text-center.text-dark Date
 
@@ -424,7 +456,7 @@
                                     .card-body.bg-white
                                         div.flex.text-center
                                             div#sigbox(style="width:450px;")
-                                                input#signature(name='pg35signaturehealthcare' type='text' placeholder='Sign here' style="font-size:50px;")
+                                                input#signature(name='pg35signaturehealthcare' value= (app)? app.pg35signaturehealthcare : '' type='text' placeholder='Sign here' style="font-size:50px;")
                                         br
                                         h4.mt-0.header-title.text-center.text-dark SIGNATURE
 

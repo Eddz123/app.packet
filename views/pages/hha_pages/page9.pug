@@ -1,3 +1,14 @@
+
+
+
+
+
+
+
+
+
+
+
 .row
   .col-md-12
     .form-group
@@ -12,7 +23,7 @@
 
     .form-group.col-md-4.text-center
         label.text-dark Employee Name / Contractor Name :
-        input.form-control.waves-float(type='text' value='' name='pg8nameofemployee')
+        input.form-control.waves-float(type='text' value= (app)? app.pg9nameofemployee : '' name='pg9nameofemployee')
 
 
     br
@@ -157,13 +168,13 @@
               .card-body.bg-white
                   div.flex.text-center
                       div#sigbox(style="width:450px;")
-                          input#signature(name='pg9signatureemployee' type='text' placeholder='Sign here' style="font-size:50px;")
+                          input#signature(name='pg9signatureemployee' value= (app)? app.pg9signatureemployee : '' type='text' placeholder='Sign here' style="font-size:50px;")
                   br
                   h4.mt-0.header-title.text-center.text-dark Employee / Contractor Signature
       .form-group.col-md-6
           label.text-dark Date :
           .input-group
-              input.form-control(type='date', placeholder='mm/dd/yyyy' value='' name='pg8dateoforientation')
+              input.form-control(type='date', placeholder='mm/dd/yyyy' value= (app)? app.pg9dateoforientation1 : '' name='pg9dateoforientation1')
               .input-group-append
                   span.input-group-text
                       i.mdi.mdi-calendar
@@ -173,13 +184,13 @@
               .card-body.bg-white
                   div.flex.text-center
                       div#sigbox
-                          input#signature(name='pg9signatureagency' type='text' placeholder='Sign here' style="font-size:50px;")
+                          input#signature(name='pg9signatureagency'  value= (app)? app.pg9signatureagency : '' type='text' placeholder='Sign here' style="font-size:50px;")
                   br
                   h4.mt-0.header-title.text-center.text-dark Agency Representative Signature
       .form-group.col-md-6
            label.text-dark Date :
            .input-group
-              input.form-control(type='date', placeholder='mm/dd/yyyy' value='' name='pg8dateoforientation')
+              input.form-control(type='date', placeholder='mm/dd/yyyy' value= (app)? app.pg9dateoforientation2 : '' name='pg9dateoforientation2')
               .input-group-append
                   span.input-group-text
                       i.mdi.mdi-calendar
