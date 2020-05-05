@@ -1,32 +1,55 @@
-.col-12
-  .card
-    .card-body
-      h4.mt-0.header-title Medical Social Worker Applicants Table
-      p.text-muted.mb-4
-        |
+extends layout
 
-      table#datatable-buttons2.table.table-striped.table-bordered.dt-responsive.nowrap(style='border-collapse: collapse; border-spacing: 0; width: 100%;')
-        thead
-          tr
 
-            th Name
-            th Address
-            th Phone Number
-            th Email Address
-            th Position Applied
-            th Options
 
-        tbody
-          each app in mswtable
-            tr(class= (app.app_isview != 'true') ? 'table-success' : '')
+block content
 
-              td= app.msw_name
-              td= app.msw_address
-              td= app.msw_phonenumber
-              td= app.msw_emailaddress
-              td= app.msw_positionapplic
-              td.text-center
-                a(href="/applicationform/msw/viewform?id=" + app.msw_id)
-                  i.far.fa-eye
-                  |  Open
-// end col
+
+
+  .row
+    .col-12
+      .card
+        .card-body
+          h4.mt-0.header-title Medical Social Worker Applicants Table
+          p.text-muted.mb-4
+            |
+
+          table#datatable-buttons.table.table-striped.table-bordered.dt-responsive.nowrap(style='border-collapse: collapse; border-spacing: 0; width: 100%;')
+            thead
+              tr
+
+                th Name
+                th Address
+                th Phone Number
+                th Email Address
+                th Position Applied
+                th Options
+
+            tbody
+              each app in applicationpacket
+                tr(class= (app.app_isview != 'true')? 'table-success' : '')
+
+                  td= app.msw_name
+                  td= app.msw_address
+                  td= app.msw_phonenumber
+                  td= app.msw_emailaddress
+                  td= app.msw_positionapplied
+                  td.text-center
+                    a(href="/applicationform/msw/viewform?id=" + app.msw_id)
+                      i.far.fa-eye
+                      |  Open
+    // end col
+  // end row
+
+
+
+
+
+
+
+
+
+
+
+
+

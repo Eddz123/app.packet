@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="f564ca20-111c-4eed-a1a8-9ee87d4c58ba" name="triunionhealthcare" url="http://148.72.202.211">
-        <fileTransfer host="148.72.202.211" port="21" rootFolder="/test01">
+        <fileTransfer host="148.72.202.211" port="21" rootFolder="/test02">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
